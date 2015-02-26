@@ -1,0 +1,19 @@
+h1, h2, h3, p {
+  color: white;
+}
+
+.container {
+  width: 65%;
+  float: left;
+  padding: 8%;
+  margin: 10%;
+  background: rgba(37, 37, 37, .92);
+  border-radius: 5px;
+}
+
+
+body {
+  background-image:url("/img/film.jpg");
+  background-size: 100% 100%
+  background-repeat: no-repeat;
+}

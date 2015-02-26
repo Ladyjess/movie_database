@@ -1,3 +1,5 @@
+<div class="container">
+
 <h1><%= @movie.name() %></h1>
 
 <h3>Select all actors who starred in this movie:</h3>
@@ -13,7 +15,7 @@
   </div>
   <% end %>
 
-  <button type="submit">Add actors</button>
+  <button class="btn btn-primary" type="submit">Add actors</button>
 </form>
 <% end %>
 
@@ -34,3 +36,4 @@
 <a href="/movies/<%= @movie.id %>/edit">Edit Movie</a>
 
 <a href="/">Return to Main Page</a>
+</div>

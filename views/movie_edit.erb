@@ -1,3 +1,4 @@
+<div class="container">
 <h1> Edit movie</h1>
 
 
@@ -7,14 +8,14 @@
    <label for="name">Enter New name:</label>
   <input name="name" id="name" type="text">
 
-  <button type="submit">Update Name</button>
+  <button class="btn btn-success" type="submit">Update Name</button>
 </form>
 
 
 <form action="/movies/<%= @movie.id %>/edit" method="post">
   <input name="_method" type="hidden" value="delete" />
 
-  <button type="submit">Delete it!</button>
+  <button class="btn btn-success" type="submit">Delete it!</button>
 
 </form>
 
@@ -24,3 +25,4 @@
 </br>
 
   <a href="/">Return to Main Page</a>
+</div>
